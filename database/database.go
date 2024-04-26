@@ -6,7 +6,8 @@ import (
 	"os"
 	"gorm.io/gorm"
 	"gorm.io/driver/postgres"
-	"github.com/proutyeahs/AZ-api/models"
+	"gorm.io/gorm/logger"
+	"github.com/Proutyeahs/AZ-api/models"
 )
 
 type Dbinstance struct {
