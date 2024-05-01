@@ -17,10 +17,3 @@
 /tmp/*
 
 .env
-
-BECAUSE YOUR DUMB
-
-docker compose run --service-ports web bash
-
-go mod init github.com/Proutyeahs/AZ-api
-go run cmd/main.go -b 0.0.0.0
