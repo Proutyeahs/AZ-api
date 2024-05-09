@@ -8,7 +8,7 @@ import (
 
 func GetTiles(c *fiber.Ctx) error {
 	tiles := []models.Tile{}
-	
+
 	database.DB.Db.Find(&tiles)
 
 	return c.Status(200).JSON(tiles)
